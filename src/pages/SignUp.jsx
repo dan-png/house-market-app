@@ -106,11 +106,7 @@ function SignUp() {
               />
           </div>
 
-          <Link
-            to='/forgot-password'
-            className='forgotPasswordLink'>
-            Forgot Password
-          </Link>
+          
 
           <div className="signUpBar">
             <p className="signUpText">
