@@ -13,6 +13,7 @@ import Category from './pages/Category'
 import CreateLisiting from './pages/CreateLisiting'
 import Listing from './pages/Listing'
 import ForgotPassword from './pages/ForgotPassword'
+import Contact from './pages/Contact'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path='forgot-password' element={<ForgotPassword />} />
           <Route path='create-listing' element={<CreateLisiting />} />
           <Route path='category/:categoryName/:listingId' element={<Listing />} />
+          <Route path='/contact/:landlordId' element={<Contact />} />
         </Routes>
 
         <NavBar />
