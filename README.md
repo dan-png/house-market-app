@@ -27,10 +27,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 
 
-### Deployment
-
-
-
-### `npm run build` fails to minify
 
 
